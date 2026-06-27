@@ -1,0 +1,102 @@
+{
+  "https://www.parfumerie.com.ar/gentleman-reserve-privee-edp-200ml-pr150421": {
+    "name": "Gentleman Reserve Privée EDP 200ml - Parfumerie",
+    "last_price": 352750.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 352750.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/gentleman-reserve-privee-edp-82212-2339/p": {
+    "name": "Gentleman Reserve Privée EDP - Juleriaque",
+    "last_price": 297000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 297000.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/the-most-wanted-intense-edp-75088-2048/p": {
+    "name": "The Most Wanted Intense EDP - Juleriaque (1)",
+    "last_price": 274000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 274000.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/the-most-wanted-intense-edp-547-26420/p": {
+    "name": "The Most Wanted Intense EDP - Juleriaque (2)",
+    "last_price": 274000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 274000.0
+      }
+    ]
+  },
+  "https://www.beauty24.com.ar/gentleman-reserve-prive-edp/p?skuId=9350": {
+    "name": "Gentleman Reserve Privée EDP - Beauty24",
+    "last_price": 297000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 297000.0
+      }
+    ]
+  },
+  "https://www.beauty24.com.ar/gentleman-reserve-prive-edp-100-ml-travel-spray-pouch-fi00p011161kit4/p?skuId=30460": {
+    "name": "Gentleman Reserve Privée EDP 100ml Travel - Beauty24",
+    "last_price": 297000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 297000.0
+      }
+    ]
+  },
+  "https://www.beauty24.com.ar/the-most-wanted-intense-edp-xld116400c-1/p?skuId=7846": {
+    "name": "The Most Wanted Intense EDP - Beauty24",
+    "last_price": 274000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 274000.0
+      }
+    ]
+  },
+  "https://www.beauty24.com.ar/the-one-edp-x30213750000/p?skuId=12342": {
+    "name": "The One EDP - Beauty24",
+    "last_price": 327000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 327000.0
+      }
+    ]
+  },
+  "https://www.perfumeriasrouge.com/the-one-edp-x30213750000/p?skuId=12342": {
+    "name": "The One EDP - Perfumerías Rouge",
+    "last_price": 327000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 327000.0
+      }
+    ]
+  },
+  "https://www.perfumeriasrouge.com/the-most-wanted-intense-edp-xld116400c-1/p?skuId=7846": {
+    "name": "The Most Wanted Intense EDP - Perfumerías Rouge",
+    "last_price": 274000.0,
+    "history": [
+      {
+        "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 274000.0
+      }
+    ]
+  }
+}

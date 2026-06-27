@@ -91,7 +91,7 @@ def extract_price_candidates(soup):
         classes = " ".join(tag.get("class", [])).lower()
         if "price" not in classes:
             continue
-        text = tag.get_text(" ", strip=True)
+        text = tag.get_text(strip=True)
         if "$" not in text:
             continue
         match = re.search(r"\$\s*([\d.,]+)", text)
