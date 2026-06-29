@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tracker de precios - Perfumerías</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+  body { background:#121212; color:#eee; font-family: -apple-system, Arial, sans-serif; margin:0; padding:20px; }
+  h1 { font-size:1.4rem; margin-bottom:4px; }
+  .updated { color:#888; font-size:0.85rem; margin-bottom:20px; }
+  .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap:16px; }
+  .card { background:#1c1c1c; border-radius:12px; padding:16px; }
+  .card-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; gap:8px; }
+  .name { color:#fff; text-decoration:none; font-weight:600; font-size:0.95rem; }
+  .name:hover { color:#4fd1c5; }
+  .change { font-weight:700; font-size:0.85rem; white-space:nowrap; }
+  .change.down { color:#48bb78; }
+  .change.up { color:#f56565; }
+  .stats { display:flex; gap:16px; margin-bottom:10px; }
+  .stats .label { display:block; color:#888; font-size:0.7rem; }
+  .stats .value { display:block; font-size:1rem; font-weight:600; }
+  .value.low { color:#48bb78; }
+  .value.high { color:#f56565; }
+</style>
+</head>
+<body>
+  <h1>📈 Tracker de precios - Perfumerías</h1>
+  <div class="updated">Última actualización: 29/06/2026 15:14</div>
+  <div class="grid">
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.parfumerie.com.ar/gentleman-reserve-privee-edp-200ml-pr150421" target="_blank" class="name">Givenchy Gentleman Reserve Privée EDP 200ml - Parfumerie</a>
+        <span class="change up">↑ +17.6%</span>
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$415.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$352.750</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$415.000</span></div>
+      </div>
+      <canvas id="chart0" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart0'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [352750.0, 415000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.juleriaque.com.ar/gentleman-reserve-privee-edp-82212-2339/p" target="_blank" class="name">Gentleman Reserve Privée EDP - Juleriaque</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$297.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$297.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$297.000</span></div>
+      </div>
+      <canvas id="chart1" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart1'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45"],
+          datasets: [{
+            data: [297000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.juleriaque.com.ar/the-most-wanted-intense-edp-75088-2048/p" target="_blank" class="name">The Most Wanted Intense EDP - Juleriaque (1)</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$274.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$274.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$274.000</span></div>
+      </div>
+      <canvas id="chart2" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart2'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [274000.0, 274000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.juleriaque.com.ar/the-most-wanted-intense-edp-547-26420/p" target="_blank" class="name">The Most Wanted Intense EDP - Juleriaque (2)</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$274.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$274.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$274.000</span></div>
+      </div>
+      <canvas id="chart3" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart3'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [274000.0, 274000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.beauty24.com.ar/gentleman-reserve-prive-edp/p?skuId=9350" target="_blank" class="name">Givenchy Gentleman Reserve Privée EDP - Beauty24</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$297.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$297.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$297.000</span></div>
+      </div>
+      <canvas id="chart4" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart4'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [297000.0, 297000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.beauty24.com.ar/gentleman-reserve-prive-edp-100-ml-travel-spray-pouch-fi00p011161kit4/p?skuId=30460" target="_blank" class="name">Givenchy Gentleman Reserve Privée EDP 100ml Travel - Beauty24</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$297.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$297.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$297.000</span></div>
+      </div>
+      <canvas id="chart5" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart5'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [297000.0, 297000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.beauty24.com.ar/the-most-wanted-intense-edp-xld116400c-1/p?skuId=7846" target="_blank" class="name">The Most Wanted Intense EDP - Beauty24</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$274.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$274.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$274.000</span></div>
+      </div>
+      <canvas id="chart6" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart6'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [274000.0, 274000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.beauty24.com.ar/the-one-edp-x30213750000/p?skuId=12342" target="_blank" class="name">The One EDP - Beauty24</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$327.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$327.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$327.000</span></div>
+      </div>
+      <canvas id="chart7" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart7'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [327000.0, 327000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.perfumeriasrouge.com/the-one-edp-x30213750000/p?skuId=12342" target="_blank" class="name">The One EDP - Perfumerías Rouge</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$327.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$327.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$327.000</span></div>
+      </div>
+      <canvas id="chart8" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart8'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [327000.0, 327000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.perfumeriasrouge.com/the-most-wanted-intense-edp-xld116400c-1/p?skuId=7846" target="_blank" class="name">The Most Wanted Intense EDP - Perfumerías Rouge</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$274.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$274.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$274.000</span></div>
+      </div>
+      <canvas id="chart9" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart9'), {
+        type: 'line',
+        data: {
+          labels: ["27/06 19:45", "29/06 18:11"],
+          datasets: [{
+            data: [274000.0, 274000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+    <div class="card">
+      <div class="card-header">
+        <a href="https://www.juleriaque.com.ar/l-homme-ideal-parfum-902074-16075/p" target="_blank" class="name">Guerlain L' Homme Ideal Parfum 100 ml - Juleriaque</a>
+        
+      </div>
+      <div class="stats">
+        <div><span class="label">Actual</span><span class="value">$340.000</span></div>
+        <div><span class="label">Mínimo</span><span class="value low">$340.000</span></div>
+        <div><span class="label">Máximo</span><span class="value high">$340.000</span></div>
+      </div>
+      <canvas id="chart10" height="90"></canvas>
+    </div>
+    <script>
+      new Chart(document.getElementById('chart10'), {
+        type: 'line',
+        data: {
+          labels: ["29/06 18:11"],
+          datasets: [{
+            data: [340000.0],
+            borderColor: '#4fd1c5',
+            backgroundColor: 'rgba(79,209,197,0.1)',
+            fill: true,
+            tension: 0.25,
+            pointRadius: 2,
+          }]
+        },
+        options: {
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#888', maxTicksLimit: 6 }, grid: { display: false } },
+            y: { ticks: { color: '#888' }, grid: { color: '#2a2a2a' } }
+          }
+        }
+      });
+    </script>
+    
+  </div>
+</body>
+</html>

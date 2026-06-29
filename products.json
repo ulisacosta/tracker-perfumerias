@@ -1,13 +1,30 @@
 [
   {
-    "name": "Gentleman Reserve Privée EDP 200ml - Parfumerie",
+    "name": "Guerlain L' Homme Ideal Parfum 100 ml - Juleriaque",
+    "url": "https://www.juleriaque.com.ar/l-homme-ideal-parfum-902074-16075/p"
+  },
+  {
+    "name": "Guerlain L' Homme Ideal Parfum 100 ml - Parfumerie",
+    "url": "https://www.parfumerie.com.ar/l-homme-ideal-parfum-100ml-regalo"
+  },
+  {
+    "name": "Givenchy Gentleman Reserve Privée EDP 200ml - Parfumerie",
     "url": "https://www.parfumerie.com.ar/gentleman-reserve-privee-edp-200ml-pr150421"
   },
   {
-    "name": "Gentleman Reserve Privée EDP - Juleriaque",
+    "name": "Givenchy Gentleman Reserve Privée EDP - Juleriaque",
     "url": "https://www.juleriaque.com.ar/gentleman-reserve-privee-edp-82212-2339/p"
   },
+
   {
+    "name": "Givenchy Gentleman Reserve Privée EDP - Beauty24",
+    "url": "https://www.beauty24.com.ar/gentleman-reserve-prive-edp/p?skuId=9350"
+  },
+  {
+    "name": "Givenchy Gentleman Reserve Privée EDP 100ml Travel - Beauty24",
+    "url": "https://www.beauty24.com.ar/gentleman-reserve-prive-edp-100-ml-travel-spray-pouch-fi00p011161kit4/p?skuId=30460"
+  },
+    {
     "name": "The Most Wanted Intense EDP - Juleriaque (1)",
     "url": "https://www.juleriaque.com.ar/the-most-wanted-intense-edp-75088-2048/p"
   },
@@ -15,14 +32,7 @@
     "name": "The Most Wanted Intense EDP - Juleriaque (2)",
     "url": "https://www.juleriaque.com.ar/the-most-wanted-intense-edp-547-26420/p"
   },
-  {
-    "name": "Gentleman Reserve Privée EDP - Beauty24",
-    "url": "https://www.beauty24.com.ar/gentleman-reserve-prive-edp/p?skuId=9350"
-  },
-  {
-    "name": "Gentleman Reserve Privée EDP 100ml Travel - Beauty24",
-    "url": "https://www.beauty24.com.ar/gentleman-reserve-prive-edp-100-ml-travel-spray-pouch-fi00p011161kit4/p?skuId=30460"
-  },
+
   {
     "name": "The Most Wanted Intense EDP - Beauty24",
     "url": "https://www.beauty24.com.ar/the-most-wanted-intense-edp-xld116400c-1/p?skuId=7846"

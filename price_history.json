@@ -1,11 +1,15 @@
 {
   "https://www.parfumerie.com.ar/gentleman-reserve-privee-edp-200ml-pr150421": {
-    "name": "Gentleman Reserve Privée EDP 200ml - Parfumerie",
-    "last_price": 352750.0,
+    "name": "Givenchy Gentleman Reserve Privée EDP 200ml - Parfumerie",
+    "last_price": 415000.0,
     "history": [
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
         "price": 352750.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 415000.0
       }
     ]
   },
@@ -26,6 +30,10 @@
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
         "price": 274000.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 274000.0
       }
     ]
   },
@@ -36,25 +44,37 @@
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
         "price": 274000.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 274000.0
       }
     ]
   },
   "https://www.beauty24.com.ar/gentleman-reserve-prive-edp/p?skuId=9350": {
-    "name": "Gentleman Reserve Privée EDP - Beauty24",
+    "name": "Givenchy Gentleman Reserve Privée EDP - Beauty24",
     "last_price": 297000.0,
     "history": [
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
         "price": 297000.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 297000.0
       }
     ]
   },
   "https://www.beauty24.com.ar/gentleman-reserve-prive-edp-100-ml-travel-spray-pouch-fi00p011161kit4/p?skuId=30460": {
-    "name": "Gentleman Reserve Privée EDP 100ml Travel - Beauty24",
+    "name": "Givenchy Gentleman Reserve Privée EDP 100ml Travel - Beauty24",
     "last_price": 297000.0,
     "history": [
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 297000.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
         "price": 297000.0
       }
     ]
@@ -66,6 +86,10 @@
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
         "price": 274000.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 274000.0
       }
     ]
   },
@@ -75,6 +99,10 @@
     "history": [
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
+        "price": 327000.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
         "price": 327000.0
       }
     ]
@@ -86,6 +114,10 @@
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
         "price": 327000.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 327000.0
       }
     ]
   },
@@ -96,6 +128,20 @@
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
         "price": 274000.0
+      },
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 274000.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/l-homme-ideal-parfum-902074-16075/p": {
+    "name": "Guerlain L' Homme Ideal Parfum 100 ml - Juleriaque",
+    "last_price": 340000.0,
+    "history": [
+      {
+        "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 340000.0
       }
     ]
   }
