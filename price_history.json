@@ -1,7 +1,7 @@
 {
   "https://www.parfumerie.com.ar/gentleman-reserve-privee-edp-200ml-pr150421": {
-    "name": "Givenchy Gentleman Reserve Privée EDP 200ml - Parfumerie",
-    "last_price": 415000.0,
+    "name": "GENTLEMAN RESERVE PRIVÉE EDP 200ML + POUCH & TRAVEL SIZE DE REGALO - Parfumerie",
+    "last_price": 352750.0,
     "history": [
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
@@ -10,21 +10,29 @@
       {
         "date": "2026-06-29T18:11:52.161943+00:00",
         "price": 415000.0
+      },
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 352750.0
       }
     ]
   },
   "https://www.juleriaque.com.ar/gentleman-reserve-privee-edp-82212-2339/p": {
-    "name": "Gentleman Reserve Privée EDP - Juleriaque",
+    "name": "Givenchy Gentleman Reserve Privée EDP 100ml - Juleriaque",
     "last_price": 297000.0,
     "history": [
       {
         "date": "2026-06-27T19:45:41.115041+00:00",
         "price": 297000.0
+      },
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 297000.0
       }
     ]
   },
   "https://www.juleriaque.com.ar/the-most-wanted-intense-edp-75088-2048/p": {
-    "name": "The Most Wanted Intense EDP - Juleriaque (1)",
+    "name": "The Most Wanted Intense EDP 100ml - Juleriaque",
     "last_price": 274000.0,
     "history": [
       {
@@ -33,12 +41,16 @@
       },
       {
         "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 274000.0
+      },
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
         "price": 274000.0
       }
     ]
   },
   "https://www.juleriaque.com.ar/the-most-wanted-intense-edp-547-26420/p": {
-    "name": "The Most Wanted Intense EDP - Juleriaque (2)",
+    "name": "THE MOST WANTED INTENSE EDP 100 ML + POUCH + BOTELLA Juleriaque",
     "last_price": 274000.0,
     "history": [
       {
@@ -47,6 +59,10 @@
       },
       {
         "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 274000.0
+      },
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
         "price": 274000.0
       }
     ]
@@ -66,7 +82,7 @@
     ]
   },
   "https://www.beauty24.com.ar/gentleman-reserve-prive-edp-100-ml-travel-spray-pouch-fi00p011161kit4/p?skuId=30460": {
-    "name": "Givenchy Gentleman Reserve Privée EDP 100ml Travel - Beauty24",
+    "name": "Gentleman Reserve Prive EDP 100 ml + Travel Spray + Pouch - Beauty24",
     "last_price": 297000.0,
     "history": [
       {
@@ -76,11 +92,15 @@
       {
         "date": "2026-06-29T18:11:52.161943+00:00",
         "price": 297000.0
+      },
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 297000.0
       }
     ]
   },
   "https://www.beauty24.com.ar/the-most-wanted-intense-edp-xld116400c-1/p?skuId=7846": {
-    "name": "The Most Wanted Intense EDP - Beauty24",
+    "name": "The Most Wanted Intense EDP 100ml - Beauty24",
     "last_price": 274000.0,
     "history": [
       {
@@ -89,6 +109,10 @@
       },
       {
         "date": "2026-06-29T18:11:52.161943+00:00",
+        "price": 274000.0
+      },
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
         "price": 274000.0
       }
     ]
@@ -122,7 +146,7 @@
     ]
   },
   "https://www.perfumeriasrouge.com/the-most-wanted-intense-edp-xld116400c-1/p?skuId=7846": {
-    "name": "The Most Wanted Intense EDP - Perfumerías Rouge",
+    "name": "The Most Wanted Intense EDP 100ml - Perfumerías Rouge",
     "last_price": 274000.0,
     "history": [
       {
@@ -132,16 +156,134 @@
       {
         "date": "2026-06-29T18:11:52.161943+00:00",
         "price": 274000.0
+      },
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 274000.0
       }
     ]
   },
   "https://www.juleriaque.com.ar/l-homme-ideal-parfum-902074-16075/p": {
     "name": "Guerlain L' Homme Ideal Parfum 100 ml - Juleriaque",
-    "last_price": 340000.0,
+    "last_price": 365000.0,
     "history": [
       {
         "date": "2026-06-29T18:11:52.161943+00:00",
         "price": 340000.0
+      },
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 365000.0
+      }
+    ]
+  },
+  "https://www.parfumerie.com.ar/l-homme-ideal-parfum-100ml-regalo": {
+    "name": "Guerlain L' Homme Ideal Parfum 100 ml - Parfumerie",
+    "last_price": 365000.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 365000.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/stronger-with-you-intensely-edp-100950555500-22626/p": {
+    "name": "Stronger With You Intensely EDP 100 ml + EDP 15 ml - Juleriaque",
+    "last_price": 409000.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 409000.0
+      }
+    ]
+  },
+  "https://www.parfumerie.com.ar/stronger-with-you-intensely-edp-100ml-mini-talla-15ml-set-ps164066": {
+    "name": "STRONGER WITH YOU INTENSELY EDP 100ML & MINI TALLA 15ML SET - Parfumerie",
+    "last_price": 409000.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 409000.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/dylan-blue-pour-homme-edt-33587-832/p": {
+    "name": "Dylan Blue Pour Homme EDT 100 ml - Juleriaque",
+    "last_price": 266000.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 266000.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/dylan-blue-pour-homme-edt-33587-833/p": {
+    "name": "Dylan Blue Pour Homme EDT 200 ml - Juleriaque",
+    "last_price": 189000.6,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 189000.6
+      }
+    ]
+  },
+  "https://www.parfumerie.com.ar/dylan-blue-pour-homme-edt-100ml-1": {
+    "name": "DYLAN BLUE POUR HOMME EDT 100ML + POUCH DE REGALO - Parfumerie",
+    "last_price": 266000.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 266000.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/bvlgari-man-in-black-edp-22850-21730/p": {
+    "name": "Bvlgari Man In Black EDP 100 ml - Juleriaque",
+    "last_price": 299000.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 299000.0
+      }
+    ]
+  },
+  "https://www.parfumerie.com.ar/voyage-edt-rp120904": {
+    "name": "Nautica Voyage EDT 100ML - Parfumerie",
+    "last_price": 59422.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 59422.0
+      }
+    ]
+  },
+  "https://www.parfumerie.com.ar/hero-edp-100ml-pr149609": {
+    "name": "BURBERRY HERO EDP 100ML + POUCH DE REGALO - Parfumerie",
+    "last_price": 312500.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 312500.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/burberry-hero-edp-900153-11264/p": {
+    "name": "BURBERRY HERO EDP 100ML - Juleriaque",
+    "last_price": 312500.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 312500.0
+      }
+    ]
+  },
+  "https://www.juleriaque.com.ar/burberry-hero-edp-570-26596/p": {
+    "name": "Burberry Hero EDP 100 ml + 3 Minitallas - Juleriaque",
+    "last_price": 312500.0,
+    "history": [
+      {
+        "date": "2026-07-14T12:57:52.969752+00:00",
+        "price": 312500.0
       }
     ]
   }
